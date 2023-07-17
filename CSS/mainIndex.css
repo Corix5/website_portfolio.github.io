@@ -1,0 +1,9 @@
+main .aboutme{
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+main .container .terminal{
+    margin-left: 10%;
+}

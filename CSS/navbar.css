@@ -1,0 +1,72 @@
+/*Agregar sección de navbar*/
+nav {
+    background-color: #ffffff;
+    height: 50px;
+    width: 100%;
+    position: fixed; /* Para que el nav este fijo en la parte superior*/
+    top: 0; /* Elimina el borde de arrina*/
+    left: 0; /* Elimina el borde de la izquierda*/
+    z-index: 100; /* Para que el nav este por encima de todo*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#lista_navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#lista_navbar li{
+    padding: 0 20px;
+}
+
+#lista_navbar li a span:first-child{
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+#lista_navbar a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+#lista_navbar a span:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+  }
+
+  #lista_navbar a span {
+    transition: transform 0.2s ease-out;
+  }
+  #lista_navbar a:hover span:first-child {
+    transform: translateY(100%);
+  }
+  #lista_navbar a:hover span:last-child {
+    transform: none;
+  }
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*background-color: #1f191a;*/
+}
+
+main{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.educationContent{
+    -webkit-flex: auto;
+    flex: auto;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.educationContent li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.CarouselContainer{
+    width: auto;
+    max-width: 700px;
+}   
+
+.carousel-control-prev-icon{
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.carousel-control-next-icon{
+    background-color: rgba(0, 0, 0, 0.355);
+}
+
+@media (max-width: 980px) {
+    main {
+      flex-direction: column;
+      align-items: center;
+    }
+    .educationContent{
+        margin-top: 15%;
+    }
+
+}
+
+
+
+
+  
