@@ -11,6 +11,12 @@
 </head>
 <body>
     <nav> 
+        <div id="menu-icon" onclick="toggleNavbar()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
         <ul id="lista_navbar">
             <li><a href="./index.html"><span>About me</span> <span><img src="./IMG/code-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
             <li><a href="./education.html"><span>Education</span> <span><img src="./IMG/school-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
@@ -20,6 +26,13 @@
     </nav>
 
 <main>
+    <div id="navbar_menu">
+        <li><a href="./index.html">About me</a></li>
+        <li><a href="./education.html">Education</a></li>
+        <li><a href="./technlogies.html">Technologies</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+    </div>
+
     <div class="container">
         <figure>
             <img src="./IMG/Foto.png" alt="My Photo" width="300px" height="300px">
@@ -56,6 +69,6 @@
         </div>
 
 </footer>
-
+<script src="./JS/navbar.js"></script>
 </body>
 </html>
