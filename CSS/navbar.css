@@ -25,14 +25,6 @@ nav {
   display: none;
 }
 
-#menu-icon .line{
-  width: 25px;
-  height: 1px;
-  background-color: #000000;
-  margin-top: 6.5px;
-  margin-left: 3px;
-}
-
 #menu-icon.active{
   transform: rotate(90deg);
 }
@@ -47,13 +39,13 @@ nav {
   left: 0;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 #navbar_menu.active{
   opacity: 1;
   visibility: visible;
   list-style-type: none;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 #navbar_menu.active li {
