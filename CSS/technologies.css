@@ -1,0 +1,70 @@
+.technlogies_container{
+    width: 60%;
+    height: 450px;
+    background-color: #0a141d;
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 150px;
+}
+
+.technlogies_container .boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.technlogies_container h1{
+    margin: 50px 0 30px 0; /* top right bottom left */
+    text-align: center;
+}
+
+.technlogies_container p{
+    margin: 50px 0 30px 0; /* top right bottom left */
+    text-align: center;
+}
+
+.technlogies_container #descriptionTechonologies{
+    font-size: 20px;
+}
+
+.technlogies_container .tech_box{
+    width: 300px;
+    height: 300px;
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: #0a1a2a;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.technlogies_container .tech_box figure{
+    margin: 10px 0 0 10px;
+}
+
+.technlogies_container .tech_box h2{
+    margin: 40px 10px 0 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:1500px){
+    .technlogies_container{
+        width: 90%;
+        height: 1300px;
+    }
+
+    #dataBases{
+        width: 90%;
+        height: 950px;
+    }
+
+    .technlogies_container .boxes{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .technlogies_container .tech_box{
+        width: 90%;
+        margin-bottom: 40px;
+    }
+}

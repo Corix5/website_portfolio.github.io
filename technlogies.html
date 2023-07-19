@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="./CSS/navbar.css">
     <link rel="stylesheet" href="./CSS/footer.css">
     <link rel="stylesheet" href="./CSS/generalStyle.css">
+    <link rel="stylesheet" href="./CSS/technologies.css">
     <title> David Cortés | SWE </title>
 </head>
 <body>
+
+    <header>
     <nav> 
         <figure id="menu-icon" onclick="toggleNavbar()">
             <img src="./IMG/menu.png" alt="menu">
@@ -30,14 +33,104 @@
         <li><a href="./projects.html">Projects</a></li>
     </nav>
 
+    <nav id="navbar_menu">
+        <li><a href="./index.html">About me</a></li>
+        <li><a href="./education.html">Education</a></li>
+        <li><a href="./technlogies.html">Technologies</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+      </nav>
+    </header>
+
     <main>
-        <div id="navbar_menu">
-            <li><a href="./index.html">About me</a></li>
-            <li><a href="./education.html">Education</a></li>
-            <li><a href="./technlogies.html">Technologies</a></li>
-            <li><a href="./projects.html">Projects</a></li>
-        </div>
+
+        <section class="technlogies_container">
+            <h1>Programming Lenguages</h1>
+            <p id="descriptionTechonologies">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi repellat soluta dicta, minima libero aut at ab inventore accusantium provident.</p>
+            
+            <section class="boxes">
+
+                <article class="tech_box">
+                    <figure>
+                        <img src="./IMG/js.png" alt="JavaScript" width="50px" height="50px">
+                    </figure>
+                    <h2>JavaScript</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, sit.</p>
+                </article>
+
+                <article class="tech_box">
+                    <figure>
+                        <img src="./IMG/python.png" alt="Python" width="50px" height="50px">
+                    </figure>
+                    <h2>Python</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, sit.</p>
+                </article>
+
+                <article class="tech_box">
+                    <figure>
+                        <img src="./IMG/java.png" alt="Java" width="50px" height="50px">
+                    </figure>
+                    <h2>Java</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, sit.</p>
+                </article>
+
+            </section>
+        </section >
+
+        <section class="technlogies_container" id="dataBases">
+            <h1>Data Bases</h1>
+            <p id="descriptionTechonologies">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi repellat soluta dicta, minima libero aut at ab inventore accusantium provident.</p>
+            
+            <section class="boxes">
+
+                <article class="tech_box">
+                    <figure>
+                        <img src="./IMG/mysql.svg" alt="JavaScript" width="50px" height="50px">
+                    </figure>
+                    <h2>MySQL</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, sit.</p>
+                </article>
+
+                <article class="tech_box">
+                    <figure>
+                        <img src="./IMG/mongodb.svg" alt="Python" width="50px" height="50px">
+                    </figure>
+                    <h2>MongoDB</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, sit.</p>
+                </article>
+
+            </section>
+        </section>
+
     </main>
+
+    <footer class="footer_container">
+        <article class="group-1">
+             <div class="box">
+                 <figure>
+                     <a href="#">
+                         <img src="" alt="">
+                     </a>
+                 </figure>
+             </div>
+             <div class="box">
+                 <h2>Attributions</h2>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, ipsa!</p>
+                 <a href="https://www.flaticon.es/iconos-gratis/html" title="html iconos">Html iconos creados por Shuvo.Das - Flaticon</a>
+             </div>
+             <div class="box">
+                 <h2>Contact</h2>
+                 <div class="contact">
+                     <a href="mailto:luisdavid202075@gmail.com"><img src="./IMG/envelope-solid.svg" alt="email" width="30px" height="30px" class="icon"></a>
+                     <a href="tel:+525548473144"><img src="./IMG/phone-solid.svg" alt="phone" width="30px" height="30px" class="icon"></a>
+                     <a href="https://www.linkedin.com/in/luis-david-cort%C3%A9s-coria-732879211/" target="_blank"><img src="./IMG/linkedin.svg" alt="Linkedin" width="30px" height="30px" class="icon"></a>
+                 </div>
+             </div>
+        </article>
+ 
+        <article class="group-2">
+             <small>&copy; 2023 <b>David Cortés</b> - All rights reserved</small>
+        </article>
+    </footer>
     <script src="./JS/navbar.js"></script>
 </body>
 </html>

@@ -11,29 +11,30 @@
     <title> David Cortés | SWE </title>
 </head>
 <body>
-    <nav> 
-        <figure id="menu-icon" onclick="toggleNavbar()">
-            <img src="./IMG/menu.png" alt="menu">
-        </figure>
+    <header>
+        <nav> 
+            <figure id="menu-icon" onclick="toggleNavbar()">
+                <img src="./IMG/menu.png" alt="menu">
+            </figure>
 
-        <ul id="lista_navbar">
-            <li><a href="./index.html"><span>About me</span> <span><img src="./IMG/code-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
-            <li><a href="./education.html"><span>Education</span> <span><img src="./IMG/school-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
-            <li><a href="./technlogies.html"><span>Technologies</span> <span><img src="./IMG/laptop-file-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
-            <li><a href="./projects.html"><span>Projects</span> <span><img src="./IMG/tarp-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
-        </ul>
-    </nav>
+            <ul id="lista_navbar">
+                <li><a href="./index.html"><span>About me</span> <span><img src="./IMG/code-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
+                <li><a href="./education.html"><span>Education</span> <span><img src="./IMG/school-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
+                <li><a href="./technlogies.html"><span>Technologies</span> <span><img src="./IMG/laptop-file-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
+                <li><a href="./projects.html"><span>Projects</span> <span><img src="./IMG/tarp-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
+            </ul>
+        </nav>
 
-    <nav id="navbar_menu">
-        <li><a href="./index.html">About me</a></li>
-        <li><a href="./education.html">Education</a></li>
-        <li><a href="./technlogies.html">Technologies</a></li>
-        <li><a href="./projects.html">Projects</a></li>
-    </nav>
-
+        <nav id="navbar_menu">
+            <li><a href="./index.html">About me</a></li>
+            <li><a href="./education.html">Education</a></li>
+            <li><a href="./technlogies.html">Technologies</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+        </nav>
+    </header>
 
 <main>
-    <div class="container">
+    <article class="container">
         <figure>
             <img src="./IMG/Foto.png" alt="My Photo" width="300px" height="300px">
         </figure>
@@ -43,11 +44,13 @@
             <br>
             <h2>Software Engineer</h2>
             <br>
-            <p>Hi, I'm David Cortés, a software engineer from Mexico. I'm currently studying at the University of Guadalajara. I'm passionate about technology and I love to learn new things. I'm currently learning about web development and I'm looking for an internship to apply my knowledge and learn more about the industry.</p>
+            <p>Hi, I'm David Cortés, a software engineer with a passion for web application 
+                development and the world of computer science. I look for opportunities to apply
+                 my knowledge and creativity in innovative projects.</p>
         </div>
-    </div>
+    </article>
 
-    <div class="container">
+    <article class="container">
         <div class="hobbies">
             <h1>Hobbies and passions</h1>
             <br>
@@ -57,17 +60,37 @@
         <figure class="terminal">
             <img src="./IMG/terminal-solid.svg" alt="Terminal" width="200px" height="200px">
         </figure>
-    </div>
+    </article>
 
 </main>
 
-<footer>
-        <div id="contact">     
-            <a href="mailto:luisdavid202075@gmail.com"><img src="./IMG/envelope-solid.svg" alt="email" width="50px" height="50px"></a>
-            <a href="tel:+525548473144"><img src="./IMG/phone-solid.svg" alt="phone" width="50px" height="50px"></a>
-            <a href="https://www.linkedin.com/in/luis-david-cort%C3%A9s-coria-732879211/" target="_blank"><img src="./IMG/linkedin.svg" alt="Linkedin" width="50px" height="50px"></a>
-        </div>
+<footer class="footer_container">
+       <article class="group-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="" alt="">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Attributions</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, ipsa!</p>
+                <a href="https://www.flaticon.es/iconos-gratis/html" title="html iconos">Html iconos creados por Shuvo.Das - Flaticon</a>
+            </div>
+            <div class="box">
+                <h2>Contact</h2>
+                <div class="contact">
+                    <a href="mailto:luisdavid202075@gmail.com"><img src="./IMG/envelope-solid.svg" alt="email" width="30px" height="30px" class="icon"></a>
+                    <a href="tel:+525548473144"><img src="./IMG/phone-solid.svg" alt="phone" width="30px" height="30px" class="icon"></a>
+                    <a href="https://www.linkedin.com/in/luis-david-cort%C3%A9s-coria-732879211/" target="_blank"><img src="./IMG/linkedin.svg" alt="Linkedin" width="30px" height="30px" class="icon"></a>
+                </div>
+            </div>
+       </article>
 
+       <article class="group-2">
+            <small>&copy; 2023 <b>David Cortés</b> - All rights reserved</small>
+       </article>
 </footer>
 <script src="./JS/navbar.js"></script>
 </body>

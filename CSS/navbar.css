@@ -15,12 +15,8 @@ nav {
   flex-direction: column;
   width: 30px;
   height: 30px;
-  border: 3px solid #7b7b7b;
-  border-radius: 5px;
-  background-color: #9a9a9a;
   margin-left: 10px;
   margin-top: 8px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
   display: none;
 }
@@ -39,6 +35,7 @@ nav {
   left: 0;
   opacity: 0;
   visibility: hidden;
+  position: fixed;
 }
 
 #navbar_menu.active{
@@ -114,7 +111,7 @@ nav {
     transform: none;
   }
 
-  @media (max-width: 580px){
+  @media (max-width: 800px){
     nav ul li{
       display: none;
     }

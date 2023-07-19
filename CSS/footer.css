@@ -1,14 +1,72 @@
-/*Footer*/
-footer{
+.footer_container{
+    width: 100%;
+    background-color: #0a141d;
+}
+
+.footer_container .group-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.footer_container .group-1 .box figure{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Trebuchet MS', sans-serif;
-    background-color: #1a2e5d00;
-    height: 300px;
-    width: 100%;
-    bottom: 0; 
-    left: 0; 
-    z-index: 100; 
+}
 
+.footer_container .group-1 .box figure img{
+    width: 250px;
+}
+
+.footer_container .group-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.footer_container .group-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.footer_container .group-1 .box a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer_container .contact .icon{
+    margin-right: 15px;
+    filter: invert(100%) sepia(7%) saturate(0%) hue-rotate(39deg) brightness(106%) contrast(109%);
+    transition: all 300ms ease;
+}
+
+.footer_container .contact .icon:hover{
+    filter: invert(69%) sepia(9%) saturate(2320%) hue-rotate(192deg) brightness(104%) contrast(101%);
+}
+
+.footer_container .group-2{
+    background-color: #0a1a2a;
+    color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.footer_container .group-2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px){
+    .footer_container .group-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
 }
