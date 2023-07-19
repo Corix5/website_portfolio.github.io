@@ -2,6 +2,14 @@ main .aboutme{
     align-items: center;
     justify-content: center;
     padding: 5%;
+    font-size: 20px;
+}
+
+main .hobbies{
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    font-size: 20px;
 }
 
 main .container .terminal{

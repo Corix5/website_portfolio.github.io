@@ -1,10 +1,15 @@
+.tech_description h1{   
+    text-align: center;
+}
 .technlogies_container{
     width: 60%;
     height: 450px;
     background-color: #0a141d;
     border-radius: 20px;
     color: #fff;
+    margin-top: 50px;
     margin-bottom: 150px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); /*el primer valor es el desplazamiento horizontal, el segundo es el desplazamiento vertical y el tercero es el desenfoque*/
 }
 
 .technlogies_container .boxes{
@@ -34,6 +39,7 @@
     background-color: #0a1a2a;
     border-radius: 5px;
     border-style: solid;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .technlogies_container .tech_box figure{
@@ -49,6 +55,7 @@
     .technlogies_container{
         width: 90%;
         height: 1300px;
+        margin-bottom: 100px;
     }
 
     #dataBases{

@@ -1,0 +1,32 @@
+.project_container{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project_container .project_description{
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 30%;
+}
+
+.project_container figure img{
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 768px){
+    .project_container{
+        flex-direction: column;
+        width: 90%;
+    }
+    .project_container .project_description{
+        margin-right: 0;
+        margin-bottom: 0;
+        width: 90%;
+    }
+
+}
