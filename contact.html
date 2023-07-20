@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/navbar.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/generalStyle.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <title>David Cortés | SWE</title>
 </head>
 <body>
-    
+    <header>
+        <nav> 
+            <figure id="menu-icon" onclick="toggleNavbar()">
+                <img src="./IMG/menu.png" alt="menu">
+            </figure>
+
+            <ul id="lista_navbar">
+                <li><a href="./index.html"><span>About me</span> <span><img src="./IMG/code-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
+                <li><a href="./education.html"><span>Education</span> <span><img src="./IMG/school-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
+                <li><a href="./technlogies.html"><span>Technologies</span> <span><img src="./IMG/laptop-file-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
+                <li><a href="./projects.html"><span>Projects</span> <span><img src="./IMG/tarp-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
+                <li><a href="./contact.html"><span>Contact Me</span> <span><img src="./IMG/tarp-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
+            </ul>
+        </nav>
+
+        <nav id="navbar_menu">
+            <li><a href="./index.html">About me</a></li>
+            <li><a href="./education.html">Education</a></li>
+            <li><a href="./technlogies.html">Technologies</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact.html">Contact Me</a></li>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Let's Chat</h1>
+        <p>If you like mi job, Send me a message</p>
+
+        <form action="" method="post">
+            <fieldset>
+                <legend>Contact</legend>
+                <label for="">Name:</label>
+                <input type="text" placeholder="Full name" name="name" id="text" required>
+                <br> <br>
+                <label for="">Phone:</label>
+                <input type="tel" placeholder="Phone number (+249)" id="tel">
+                <br> <br>
+                <label for="">Email:</label>
+                <input type="email" placeholder="example@gmail.com" name="email" id="email">
+                <br> <br>
+                <label for="">Message:</label>
+                <br>
+                <textarea name="message" id="" cols="70" rows="10" minlength="1" maxlength="250"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+        <br>
+    </main>
+
+    <footer class="footer_container">
+        <article class="group-1">
+             <div class="box">
+                 <figure>
+                     <a href="#">
+                         <img src="" alt="">
+                     </a>
+                 </figure>
+             </div>
+             <div class="box">
+                 <h2>Attributions</h2>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, ipsa!</p>
+                 <a href="https://www.flaticon.es/iconos-gratis/html" title="html iconos">Html iconos creados por Shuvo.Das - Flaticon</a>
+             </div>
+             <div class="box">
+                 <h2>Contact</h2>
+                 <div class="contact">
+                     <a href="mailto:luisdavid202075@gmail.com"><img src="./IMG/envelope-solid.svg" alt="email" width="30px" height="30px" class="icon"></a>
+                     <a href="tel:+525548473144"><img src="./IMG/phone-solid.svg" alt="phone" width="30px" height="30px" class="icon"></a>
+                     <a href="https://www.linkedin.com/in/luis-david-cort%C3%A9s-coria-732879211/" target="_blank"><img src="./IMG/linkedin.svg" alt="Linkedin" width="30px" height="30px" class="icon"></a>
+                 </div>
+             </div>
+        </article>
+ 
+        <article class="group-2">
+             <small>&copy; 2023 <b>David Cortés</b> - All rights reserved</small>
+        </article>
+ </footer>
+ <script src="./JS/navbar.js"></script>
+
 </body>
 </html>

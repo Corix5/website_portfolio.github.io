@@ -29,6 +29,7 @@
 
 .technlogies_container #descriptionTechonologies{
     font-size: 20px;
+    margin: 15px 10px 30px 10px; /* top right bottom left */
 }
 
 .technlogies_container .tech_box{
@@ -49,6 +50,13 @@
 .technlogies_container .tech_box h2{
     margin: 40px 10px 0 10px;
     text-align: center;
+    font-size: 25px;
+}
+
+.technlogies_container .tech_box p{
+    margin: 10px 10px 0 10px;
+    text-align: center;
+    font-size: 15px;
 }
 
 @media screen and (max-width:1500px){
