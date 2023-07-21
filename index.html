@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/navbar.css">
-    <link rel="stylesheet" href="./CSS/mainIndex.css">
     <link rel="stylesheet" href="./CSS/footer.css">
-    <link rel="stylesheet" href="./CSS/generalStyle.css">
+    <link rel="stylesheet" href="./CSS/mainIndex.css">
     <title> David Cortés | SWE </title>
 </head>
 <body>
@@ -22,7 +21,6 @@
                 <li><a href="./education.html"><span>Education</span> <span><img src="./IMG/school-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
                 <li><a href="./technlogies.html"><span>Technologies</span> <span><img src="./IMG/laptop-file-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
                 <li><a href="./projects.html"><span>Projects</span> <span><img src="./IMG/tarp-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
-                <li><a href="./contact.html"><span>Contact Me</span> <span><img src="./IMG/tarp-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
             </ul>
         </nav>
 
@@ -31,38 +29,64 @@
             <li><a href="./education.html">Education</a></li>
             <li><a href="./technlogies.html">Technologies</a></li>
             <li><a href="./projects.html">Projects</a></li>
-            <li><a href="./contact.html">Contact Me</a></li>
         </nav>
     </header>
 
 <main>
-    <article class="container">
+    <section class="box_container">
+        <article class="container">
+            <figure>
+                <img src="./IMG/Foto.png" alt="My Photo" width="300px" height="300px">
+            </figure>
+    
+            <article class="aboutme">
+                <h1 style="font-weight: bold;">David Cortés</h1>
+                <h2 style="color: #0b75ed; font-size: 25px;">Software Engineer</h2>
+                <p id="description" style="text-align: justify;">Hi, I'm David Cortés, a software engineer with a passion for web application 
+                    development and the world of computer science. I look for opportunities to apply
+                     my knowledge and creativity in innovative projects.</p>
+            </article>
+        </article>
+    </section>
+
+    <section class="chat">
+        <figure id="chatIcon">
+            <img src="./IMG/chat.png" alt="Chat" width="50px" height="50px">
+        </figure>
+        <a href="./contact.html" style="text-decoration: none; font-weight: bold;">Let's Chat</a>
+    </section>
+
+    <div class="separator_line"></div>
+
+    <section id="terminal_icon">
         <figure>
-            <img src="./IMG/Foto.png" alt="My Photo" width="300px" height="300px">
+            <button id="terminal_button" onclick="toggle_terminal()"><img src="./IMG/terminal-solid.svg" alt="terminal" width="50px" height="50px"></button>
         </figure>
+        <p style="margin-left: 20px; font-weight: bold;">Try on me!</p>
+    </section>
 
-        <div class="aboutme">
-            <h1>David Cortés</h1>
-            <br>
-            <h2>Software Engineer</h2>
-            <br>
-            <p>Hi, I'm David Cortés, a software engineer with a passion for web application 
-                development and the world of computer science. I look for opportunities to apply
-                 my knowledge and creativity in innovative projects.</p>
-        </div>
-    </article>
+    <section id="terminal_box">
+        <article id="terminal">
+            <header class="terminal-header">
+                <button id="button_red" onclick="toggle_terminal()"></button>
+                <button id="button_yellow" onclick="maximizeWindow()"></button>
+                <button id="button_green" onclick="toggle_terminal()"></button>
+            </header>
 
-    <article class="container">
-        <div class="hobbies">
-            <h1>Hobbies and passions</h1>
-            <br>
-            <p>I like to play videogames, watch movies and series, read books and comics, and listen to music.</p>
-        </div>
+            <div id="terminal_body">
+                <section style="display: flex; width: fit-content;">
+                    <p class="terminal-prompt">David@DESKTOP:~$ </p>
+                    <p id="type_text" style="color: #ffffff; font-weight: lighter; margin-top: 10px;">node my_portfolio.js</p>
+                </section>
 
-        <figure class="terminal">
-            <img src="./IMG/terminal-solid.svg" alt="Terminal" width="200px" height="200px">
-        </figure>
-    </article>
+                <section id="terminal_fade">
+                    <p class="terminal-text" style="color: #ffffff; text-align: justify;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, alias quos at sed minus accusantium natus officia fugit eaque et.</p>
+                    <p class="terminal-prompt">David@DESKTOP:~$ _</p>
+                </section>
+                
+            </div>
+        </article>
+    </section>
 
 </main>
 
@@ -95,5 +119,6 @@
        </article>
 </footer>
 <script src="./JS/navbar.js"></script>
+<script src="./JS/terminal.js"></script>
 </body>
 </html>

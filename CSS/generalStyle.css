@@ -1,4 +1,4 @@
-/*Contenido de la página*/
+/*Propiedades de toda la página*/
 *{
     margin: 0;
     padding: 0;
@@ -10,30 +10,4 @@ main{
     flex-direction: column;
     align-items: center;
     margin-top: 70px;
-}
-main .container{
-    display: flex;
-    font-family: 'Trebuchet MS', sans-serif;
-    padding: 5%;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 70%;
-    height: fit-content;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); /*el primer valor es el desplazamiento horizontal, el segundo es el desplazamiento vertical y el tercero es el desenfoque*/
-}
-
-@media (max-width: 980px) {
-    .container {
-      flex-direction: column;
-      align-items: center;
-    }
-}
-
-@media (max-width: 500px) {
-    .container img {
-        width: 100%;
-        height: auto;
-    }
 }
