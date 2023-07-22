@@ -1,58 +1,62 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-main{
-    display: -webkit-flex;
+.education_container{
     display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 150px;
+    background-color: #111621;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
-.educationContent{
-    -webkit-flex: auto;
-    flex: auto;
-    font-family: 'Trebuchet MS', sans-serif;
-    color: rgb(0, 0, 0);
+.education{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 400px;
 }
 
-.educationContent li a{
-    list-style: none;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+.carrousel{
+    width: 400px;
 }
 
-.CarouselContainer{
-    width: auto;
-    max-width: 700px;
-}   
-
-.carousel-control-prev-icon{
-    background-color: rgba(0, 0, 0, 0.493);
+.certificate_container{
+    margin-top: 100px;
+    margin-left: 300px;
 }
 
-.carousel-control-next-icon{
-    background-color: rgba(0, 0, 0, 0.355);
+.certificate_container button{
+    margin-top: 20px;
+    background-color: #111621;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 980px) {
-    main {
-      flex-direction: column;
-      align-items: center;
+@media screen and (max-width: 1000px){
+    .education_container{
+        height: 100%;
     }
-    .educationContent{
-        margin-top: 15%;
-        margin-bottom: 120px;
+    .education{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .certificate_container{
+        margin-top: 100px;
+        margin-left: 0px;
+        margin-bottom: 50px;
     }
 
 }
 
+@media screen and (max-width: 500px){
+    .carrousel{
+        width: 300px;
+    }
 
-
-
-  
+}
+    
