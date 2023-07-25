@@ -1,16 +1,65 @@
-.tech_description{
+.skills{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f5f9fc;
 }
+
+.tech_description{
+    width: 85%;
+    height: fit-content;
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tech_description_text{
+    text-align: justify;
+    width: fit-content;
+}
+
+.tech_description_text button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2596be;
+}
+
+.tech_description_text button:hover{
+    background-color: #0a141d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.tech_description_figure figure{
+    margin-top: 125px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.tech_description_figure .circle{
+    height: 650px;
+    width: 650px;
+    border-radius: 100%;
+    background-color: #c5dbf8;
+}
+
 .tech_description h1{   
-    text-align: center;
+    font-size: 70px;
+    color: #000000;
 }
 
 .tech_description p{
-    width: 65%;
-    text-align: center;
+    color: #000000;
+    width: 70%;
+    font-size: 20px; 
+    padding: 5px;
 }
 .technlogies_container{
     width: 60%;
@@ -72,10 +121,18 @@
 }
 
 @media screen and (max-width:1300px){
+    .tech_description{
+        width: 90%;
+    }
+
     .technlogies_container{
         width: 90%;
         height: 1300px;
         margin-bottom: 100px;
+    }
+
+    .technlogies_container .tech_box p{
+       font-size: 20px;
     }
 
     #dataBases{
@@ -93,5 +150,42 @@
     .technlogies_container .tech_box{
         width: 90%;
         margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:1500px){
+    .tech_description{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tech_description_text{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .tech_description_text p{
+        width: 100%;
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    .tech_description_figure figure{
+        margin-top: 75px;
+        margin-left: 50px;
+    }
+    
+    .tech_description_figure figure img{
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .tech_description_figure .circle{
+        height: 400px;
+        width: 400px;
     }
 }
