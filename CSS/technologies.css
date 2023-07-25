@@ -1,4 +1,15 @@
+.tech_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .tech_description h1{   
+    text-align: center;
+}
+
+.tech_description p{
+    width: 65%;
     text-align: center;
 }
 .technlogies_container{
@@ -27,9 +38,10 @@
     text-align: center;
 }
 
-.technlogies_container #descriptionTechonologies{
+.technlogies_container .descriptionTechonologies{
     font-size: 20px;
     margin: 15px 10px 30px 10px; /* top right bottom left */
+    padding: 15px;
 }
 
 .technlogies_container .tech_box{
