@@ -1,3 +1,10 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .proj_title{
     text-align: center;
     padding: 20px;
@@ -7,11 +14,11 @@
 .project_container{
     width: 65%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 40px;
     margin-bottom: 30px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+
 }
 
 .project_container .project_description{

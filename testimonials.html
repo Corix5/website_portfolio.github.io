@@ -15,29 +15,51 @@
 
   <header>
     <nav> 
-        <figure id="menu-icon" onclick="toggleNavbar()">
-          <img src="./IMG/menu.png" alt="menu">
-        </figure>
+        <section class="logo_menu">
+            <figure id="menu-icon" onclick="toggleNavbar()">
+                <img src="./IMG/menu.png" alt="menu">
+            </figure>
+
+        </section>
 
         <ul id="lista_navbar">
             <li><a href="./index.html"><span>About me</span> <span><img src="./IMG/code-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
             <li><a href="./testimonials.html"><span>Testimonials</span> <span><img src="./IMG/school-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
             <li><a href="./technlogies.html"><span>Technologies</span> <span><img src="./IMG/laptop-file-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
             <li><a href="./projects.html"><span>Projects</span> <span><img src="./IMG/tarp-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
-          </ul>
+        </ul>
     </nav>
 
-      <nav id="navbar_menu">
+    <nav id="navbar_menu">
         <li><a href="./index.html">About me</a></li>
         <li><a href="./testimonials.html">Testimonials</a></li>
         <li><a href="./technlogies.html">Technologies</a></li>
         <li><a href="./projects.html">Projects</a></li>
-      </nav>
-
+    </nav>
     </header>
 
     <main>
-       <section class="testimonial_container">
+
+    <main>
+      <article class="test_description">
+        <section class="test_description_text">
+          <h1>This is what people say about me</h1>
+          <p style="text-align: justify; font-size: 20px; padding: 5px;">I have had the opportunity to work with great people, who have helped me to grow as a professional and as a person, here are some of their comments</p>
+          <button><a href="#testimonials" style="text-decoration: none; color:#fff">Discover all the comments about me</a></button>
+        </section>
+
+        <section class="test_description_figure">
+          <figure>
+            <img src="./IMG/textGif.gif" alt="">
+          </figure>
+          <div id="square"></div>
+        </section>
+
+      </article>
+
+      <article id="testimonials">
+
+        <section class="testimonial_container">
           <header class="testimonial_header">
             <figure class="figure_name">
               <img src="./IMG/Marco.jpg" style="border-radius: 100%;" alt="" width="80px" height="80px">    
@@ -93,22 +115,23 @@
         His knowledge of web development, as well as his ability to interact with people, have allowed him to effectively
          develop projects and overcome the challenges presented"</p>
    </section>
+      </article>
 
     </main>
 
     <footer class="footer_container">
       <article class="group-1">
            <div class="box">
-               <figure>
-                   <a href="#">
-                       <img src="" alt="">
-                   </a>
+               <figure>       
+                       <img src="./IMG/logo.png" alt="Logo" width="200px" height="200px"> 
                </figure>
            </div>
            <div class="box">
                <h2>Attributions</h2>
                <p style="text-align: justify; font-size: 13px;">I appreciate their excellent work and creativity in providing these beautiful icons that add style and clarity to our interface</p>
                <a href="https://www.flaticon.es/iconos-gratis/html" title="html iconos">Html iconos creados por Shuvo.Das - Flaticon</a>
+               <br>
+               <a href="https://www.flaticon.es/iconos-gratis/ui" title="ui iconos">Ui iconos creados por Designspace Team - Flaticon</a>
            </div>
            <div class="box">
                <h2>Contact</h2>
@@ -116,14 +139,14 @@
                    <a href="mailto:luisdavid202075@gmail.com"><img src="./IMG/envelope-solid.svg" alt="email" width="30px" height="30px" class="icon"></a>
                    <a href="tel:+525548473144"><img src="./IMG/phone-solid.svg" alt="phone" width="30px" height="30px" class="icon"></a>
                    <a href="https://www.linkedin.com/in/luis-david-cort%C3%A9s-coria-732879211/" target="_blank"><img src="./IMG/linkedin.svg" alt="Linkedin" width="30px" height="30px" class="icon"></a>
-               </div>
+                  </div>
            </div>
       </article>
 
       <article class="group-2">
            <small>&copy; 2023 <b>David Cortés</b> - All rights reserved</small>
       </article>
-</footer>
+  </footer>
     <script src="./JS/navbar.js"></script>
   </body>
 </html>

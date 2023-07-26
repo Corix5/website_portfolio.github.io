@@ -13,10 +13,13 @@
 <body>
     <header>
         <nav> 
-            <figure id="menu-icon" onclick="toggleNavbar()">
-                <img src="./IMG/menu.png" alt="menu">
-            </figure>
-
+            <section class="logo_menu">
+                <figure id="menu-icon" onclick="toggleNavbar()">
+                    <img src="./IMG/menu.png" alt="menu">
+                </figure>
+    
+            </section>
+    
             <ul id="lista_navbar">
                 <li><a href="./index.html"><span>About me</span> <span><img src="./IMG/code-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
                 <li><a href="./testimonials.html"><span>Testimonials</span> <span><img src="./IMG/school-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
@@ -24,54 +27,64 @@
                 <li><a href="./projects.html"><span>Projects</span> <span><img src="./IMG/tarp-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
             </ul>
         </nav>
-
+    
         <nav id="navbar_menu">
             <li><a href="./index.html">About me</a></li>
             <li><a href="./testimonials.html">Testimonials</a></li>
             <li><a href="./technlogies.html">Technologies</a></li>
             <li><a href="./projects.html">Projects</a></li>
         </nav>
-    </header>
+        </header>
+    
+        <main>
 
     <main>
         <h1>Let's Chat!</h1>
-        <p style="font-size: 20px;">If you like mi job, send me a message</p>
+        <p style="font-size: 20px; color: #0070db;">If you like mi job, send me a message</p>
+        <br><br>
+        <article class="form_container">
+            <figure>
+                <img src="./IMG/logo2.png" alt="" width="590px" height="590px">
+            </figure>
 
-        <form action="" method="post">
-            <fieldset>
-                <legend>Contact</legend>
-                <label for="">Name:</label>
-                <input type="text" placeholder="Full name" name="name" id="text" required>
-                <br> <br>
-                <label for="">Phone:</label>
-                <input type="tel" placeholder="Phone number (+249)" id="tel">
-                <br> <br>
-                <label for="">Email:</label>
-                <input type="email" placeholder="example@gmail.com" name="email" id="email">
-                <br> <br>
-                <label for="">Message:</label>
-                <br>
-                <textarea name="message" id="" cols="70" rows="10" minlength="1" maxlength="250"></textarea>
-                <br>
-                <input type="submit" class="btn btn-primary" value="Submit">
-            </fieldset>
-        </form>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Contact</legend>
+                    <label for="">Name:</label>
+                    <input type="text" placeholder="Full name" name="name" id="text" required>
+                    <br> <br>
+                    <label for="">Phone:</label>
+                    <input type="tel" placeholder="Phone number (+249)" id="tel">
+                    <br> <br>
+                    <label for="">Email:</label>
+                    <input type="email" placeholder="example@gmail.com" name="email" id="email">
+                    <br> <br>
+                    <label for="">Message:</label>
+                    <br>
+                    <textarea name="message" id="" cols="70" rows="10" minlength="1" maxlength="250"></textarea>
+                    <br>
+                    <input type="submit" class="btn btn-primary" value="Submit">
+                </fieldset>
+            </form>
+        </article>
+
         <br>
+
     </main>
 
     <footer class="footer_container">
         <article class="group-1">
              <div class="box">
-                 <figure>
-                     <a href="#">
-                         <img src="" alt="">
-                     </a>
+                 <figure>       
+                         <img src="./IMG/logo.png" alt="Logo" width="200px" height="200px"> 
                  </figure>
              </div>
              <div class="box">
                  <h2>Attributions</h2>
                  <p style="text-align: justify; font-size: 13px;">I appreciate their excellent work and creativity in providing these beautiful icons that add style and clarity to our interface</p>
                  <a href="https://www.flaticon.es/iconos-gratis/html" title="html iconos">Html iconos creados por Shuvo.Das - Flaticon</a>
+                 <br>
+                 <a href="https://www.flaticon.es/iconos-gratis/ui" title="ui iconos">Ui iconos creados por Designspace Team - Flaticon</a>
              </div>
              <div class="box">
                  <h2>Contact</h2>
@@ -79,14 +92,14 @@
                      <a href="mailto:luisdavid202075@gmail.com"><img src="./IMG/envelope-solid.svg" alt="email" width="30px" height="30px" class="icon"></a>
                      <a href="tel:+525548473144"><img src="./IMG/phone-solid.svg" alt="phone" width="30px" height="30px" class="icon"></a>
                      <a href="https://www.linkedin.com/in/luis-david-cort%C3%A9s-coria-732879211/" target="_blank"><img src="./IMG/linkedin.svg" alt="Linkedin" width="30px" height="30px" class="icon"></a>
-                 </div>
+                    </div>
              </div>
         </article>
  
         <article class="group-2">
              <small>&copy; 2023 <b>David Cortés</b> - All rights reserved</small>
         </article>
- </footer>
+    </footer>
  <script src="./JS/navbar.js"></script>
 
 </body>
