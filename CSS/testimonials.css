@@ -59,6 +59,10 @@
     background-color: #2546be;
 }
 
+.test_description_text button:hover{
+    background-color: #000000;
+}
+
 .testimonial_container{
     width: 55%;
     height: fit-content;
@@ -97,10 +101,17 @@ display: flex;
 }
 
 @media screen and (max-width: 1500px){
+
+    .test_description_text{
+        align-items: center;
+        justify-items: center;
+    }
+
     .test_description{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 5%;
     }
 
     .test_description_text button{
