@@ -1,8 +1,9 @@
 .test_description{
     display: flex;
     width: 100%;
-    padding: 10%;
+    padding: 8%;
     justify-content: space-around;
+    margin-top: 20px;
     margin-bottom: 80px;
 }
 
@@ -21,8 +22,8 @@
 }
 
 #square{
-    width: 650px;
-    height: 500px;
+    width: 600px;
+    height: 450px;
     background-color: #2546be;
     border-radius: 30px;
     margin-left: 100px;
@@ -190,8 +191,15 @@ display: flex;
         display: none;
     }
     .test_description_figure figure img{
-        width: 400px;
+        width: 450px;
     }
 
 }
+
+@media screen and (max-width: 500px){
+    .test_description_figure figure img{
+        width: 350px;
+    }
+}
+
 
