@@ -178,6 +178,12 @@
 
 @media screen and (max-width:600px){
 
+    .technlogies_container{
+        width: 90%;
+        height: fit-content;
+        margin-bottom: 100px;
+    }
+
     .tech_description_figure figure{
         margin-top: 75px;
         margin-left: 50px;
