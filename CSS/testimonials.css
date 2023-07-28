@@ -200,6 +200,10 @@ display: flex;
     .test_description_figure figure img{
         width: 350px;
     }
+
+    .test_description_text button{
+        width: 100%;
+    }
 }
 
 
