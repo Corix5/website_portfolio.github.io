@@ -63,7 +63,10 @@
 }
 
 .proj_title p{
-    font-size: 20px;
+    text-align: justify; 
+    font-size: 20px; 
+    padding-right: 50px; 
+    padding-left: 50px;
 }
 
 .project_container{
@@ -101,10 +104,24 @@
     }
 }
 
+@media screen and (max-width:700px){
+
+    .projects_image img{
+        width: 450px;
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 600px){
 
     .proj_title{
         width: 95%;
+    }
+
+    .proj_title p{
+        width: 95%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     #list_projects{
@@ -115,5 +132,10 @@
         width: 90%;
         height: auto;
         margin-left: 15px;
+    }
+
+    .projects_image img{
+        width: 350px;
+        height: auto;
     }
 }

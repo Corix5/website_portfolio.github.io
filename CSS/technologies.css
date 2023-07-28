@@ -65,7 +65,7 @@
     font-size: 20px; 
     padding: 5px;
 }
-.technlogies_container{
+.technologies_container{
     width: 60%;
     height: 450px;
     background-color: #0a141d;
@@ -76,28 +76,28 @@
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); /*el primer valor es el desplazamiento horizontal, el segundo es el desplazamiento vertical y el tercero es el desenfoque*/
 }
 
-.technlogies_container .boxes{
+.technologies_container .boxes{
     display: flex;
     justify-content: center;
 }
 
-.technlogies_container h1{
+.technologies_container h1{
     margin: 50px 0 30px 0; /* top right bottom left */
     text-align: center;
 }
 
-.technlogies_container p{
+.technologies_container p{
     margin: 50px 0 30px 0; /* top right bottom left */
     text-align: center;
 }
 
-.technlogies_container .descriptionTechonologies{
+.technologies_container .descriptionTechonologies{
     font-size: 20px;
     margin: 15px 10px 30px 10px; /* top right bottom left */
     padding: 15px;
 }
 
-.technlogies_container .tech_box{
+.technologies_container .tech_box{
     width: 300px;
     height: 300px;
     margin-right: 25px;
@@ -108,17 +108,17 @@
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
-.technlogies_container .tech_box figure{
+.technologies_container .tech_box figure{
     margin: 10px 0 0 10px;
 }
 
-.technlogies_container .tech_box h2{
+.technologies_container .tech_box h2{
     margin: 40px 10px 0 10px;
     text-align: center;
     font-size: 25px;
 }
 
-.technlogies_container .tech_box p{
+.technologies_container .tech_box p{
     margin: 10px 10px 0 10px;
     text-align: center;
     font-size: 15px;
@@ -129,29 +129,29 @@
         width: 90%;
     }
 
-    .technlogies_container{
+    .technologies_container{
         width: 90%;
         height: 1300px;
         margin-bottom: 100px;
     }
 
-    .technlogies_container .tech_box p{
+    .technologies_container .tech_box p{
        font-size: 20px;
     }
 
     #dataBases{
         width: 90%;
-        height: 950px;
+        height: fit-content;
     }
 
-    .technlogies_container .boxes{
+    .technologies_container .boxes{
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
     }
 
-    .technlogies_container .tech_box{
+    .technologies_container .tech_box{
         width: 90%;
         margin-bottom: 40px;
     }
@@ -178,7 +178,7 @@
 
 @media screen and (max-width:600px){
 
-    .technlogies_container{
+    .technologies_container{
         width: 90%;
         height: fit-content;
         margin-bottom: 100px;
