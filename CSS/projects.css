@@ -119,9 +119,9 @@
     }
 
     .proj_title p{
-        width: 95%;
-        padding-left: 10px;
-        padding-right: 10px;
+        width: 99%;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     #list_projects{

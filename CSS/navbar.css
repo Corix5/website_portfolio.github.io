@@ -10,9 +10,18 @@ nav {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+#first_nav{
+  display: grid;
+  grid-template-columns: 55px 1fr;
+}
+
 .logo_menu{
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+}
+
+#logo1{
+  display: none;
 }
 
 #menu-icon{
@@ -118,6 +127,15 @@ nav {
     nav ul li{
       display: none;
     }
+
+    #logo1{
+      display: block;
+    }
+
+    #logo2{
+      display: none;
+    }
+
     #menu-icon{
       display: flex;
       cursor: pointer;
