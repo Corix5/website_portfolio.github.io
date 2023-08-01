@@ -76,7 +76,7 @@
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); /*el primer valor es el desplazamiento horizontal, el segundo es el desplazamiento vertical y el tercero es el desenfoque*/
 }
 
-.technologies_container .boxes{
+.boxes{
     display: flex;
     justify-content: center;
 }
@@ -186,8 +186,15 @@
     }
 
     .tech_description_text{
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
         margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .tech_description_text h1{
+        text-align: center;   
     }
 
     .tech_description_text p{
@@ -202,6 +209,10 @@
         width: 95%;
         height: fit-content;
         margin-bottom: 100px;
+    }
+
+    .tech_description_text{
+        width: 95%;
     }
 
     #dataBases{
