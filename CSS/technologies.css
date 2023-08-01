@@ -224,10 +224,16 @@
         width: 400px;
     }
 
-    .technologies_container p{
+    .boxes p{
         text-align: justify;
         padding-right: 20px;
         padding-left: 20px;
+    }
+
+    .descriptionTechonologies{
+        text-align: justify;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     #linux_article{
