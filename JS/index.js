@@ -33,7 +33,7 @@ sr.reveal('.test_description_text', {
 sr.reveal('.test_figure', {
     duration: 2000,
     origin: 'right',
-    distance: '100px'
+    distance: '-100px'
 });
 
 sr.reveal('.testimonial_container', {
@@ -51,7 +51,7 @@ sr.reveal('.tech_description_text', {
 sr.reveal('.tech_figure', {
     duration: 2000,
     origin: 'right',
-    distance: '100px'
+    distance: '-100px'
 });
 
 sr.reveal('.technologies_container', {
@@ -68,24 +68,36 @@ sr.reveal('.proj_title', {
 
 sr.reveal('.projects_image', {
     duration: 2000,
-    origin: 'left',
-    distance: '100px'
+    origin: 'right',
+    distance: '-100px'
 });
 
 sr.reveal('#list_projects', {
     duration: 2000,
     origin: 'right',
-    distance: '100px'
+    distance: '-100px'
 });
 
 sr.reveal('.ul_projects', {
     duration: 1999,
-    origin: 'left',
-    distance: '300px'
+    origin: 'right',
+    distance: '-100px'
 });
 
 sr.reveal('.projects', {
     duration: 1999,
+    origin: 'bottom',
+    distance: '100px'
+});
+
+sr.reveal('.contact_title', {
+    duration: 2000,
+    origin: 'bottom',
+    distance: '-100px'
+});
+
+sr.reveal('.form_container', {
+    duration: 2000,
     origin: 'bottom',
     distance: '100px'
 });
