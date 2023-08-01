@@ -91,13 +91,18 @@
     text-align: center;
 }
 
-.technologies_container .descriptionTechonologies{
+.descriptionTechonologies{
     font-size: 20px;
     margin: 15px 10px 30px 10px; /* top right bottom left */
-    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.technologies_container .tech_box{
+#dataBases{
+    margin-bottom: 300px;
+}
+
+.tech_box{
     width: 300px;
     height: 300px;
     margin-right: 25px;
@@ -108,19 +113,24 @@
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
-.technologies_container .tech_box figure{
+.tech_box figure{
     margin: 10px 0 0 10px;
 }
 
-.technologies_container .tech_box h2{
+.tech_box h2{
     margin: 40px 10px 0 10px;
     text-align: center;
     font-size: 25px;
 }
 
-.technologies_container .tech_box p{
-    margin: 10px 10px 0 10px;
+.tech_box p{
+    margin: 10px 10px 0 10px; /* top right bottom left */
     text-align: center;
+    font-size: 15px;
+}
+
+.tech_box ul{
+    margin: 10px 10px 0 10px; /* top right bottom left */
     font-size: 15px;
 }
 
@@ -135,7 +145,7 @@
         margin-bottom: 100px;
     }
 
-    .technologies_container .tech_box p{
+    .tech_box p{
        font-size: 20px;
     }
 
@@ -144,16 +154,26 @@
         height: fit-content;
     }
 
-    .technologies_container .boxes{
+    .boxes{
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
     }
 
-    .technologies_container .tech_box{
+    .tech_box{
         width: 90%;
         margin-bottom: 40px;
+    }
+
+    .linux_section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tech_box ul{
+        font-size: 20px;
     }
 }
 
@@ -179,7 +199,7 @@
 @media screen and (max-width:600px){
 
     .technologies_container{
-        width: 90%;
+        width: 95%;
         height: fit-content;
         margin-bottom: 100px;
     }
@@ -197,5 +217,15 @@
     .tech_description_figure .circle{
         height: 400px;
         width: 400px;
+    }
+
+    .technologies_container p{
+        text-align: justify;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    #linux_article{
+        height: 350px;
     }
 }
