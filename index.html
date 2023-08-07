@@ -83,9 +83,28 @@
     <section id="terminal_box">
         <article id="terminal">
             <header class="terminal-header">
-                <button id="button_red" onclick="toggle_terminal()"></button>
-                <button id="button_yellow" onclick="toggle_terminal()"></button>
-                <button id="button_green" onclick="maximizeWindow()"></button>
+
+                <svg width="17" height="17" style="margin-left: 5px; margin-right:10px ">
+                    <defs>
+                        <circle id="button_red" cx="8.5" cy="8.5" r="8.5"/>
+                    </defs>
+                    <use id="button_red" href="#button_red" onclick="toggle_terminal()">
+                </svg>
+
+                <svg width="17" height="17" style="margin-right:10px ">
+                    <defs>
+                        <circle id="button_yellow" cx="8.5" cy="8.5" r="8.5"/>
+                    </defs>
+                    <use id="button_yellow" href="#button_yellow" onclick="toggle_terminal()">
+                </svg>
+
+                <svg width="17" height="17" style="margin-right:10px ">
+                    <defs>
+                        <circle id="button_green" cx="8.5" cy="8.5" r="8.5"/>
+                    </defs>
+                    <use id="button_green" href="#button_green" onclick="maximizeWindow()">
+                </svg>
+
             </header>
 
             <div id="terminal_body">

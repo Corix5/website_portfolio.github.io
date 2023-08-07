@@ -141,30 +141,27 @@
 }
 
 #button_red{
-    width: 17px;
-    height: 17px;
-    background-color: #f9594f;
-    border: 1px solid #f9594f;
-    border-radius: 100%;
-    margin-right: 10px;
+    fill: #f9594f;
 }
 
 #button_yellow{
-    width: 17px;
-    height: 17px;
-    background-color: #fdbc40;
-    border: 1px solid #fdbc40;
-    border-radius: 100%;
-    margin-right: 10px;
+    fill: #fdbc40;
 }
 
 #button_green{
-    width: 17px;
-    height: 17px;
-    background-color: #3ac569;
-    border: 1px solid #3ac569;
-    border-radius: 100%;
-    margin-right: 10px;
+    fill: #3ac569;
+}
+
+#button_red:hover{
+    cursor: pointer;
+}
+
+#button_yellow:hover{
+    cursor: pointer;
+}
+
+#button_green:hover{
+    cursor: pointer;
 }
 
 @media (max-width: 980px) {
