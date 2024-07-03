@@ -15,6 +15,10 @@
     justify-content: center;
 }
 
+.container figure img{
+    border-radius: 50%;
+}
+
 .chat{
     width: 100%;
     display: flex;
