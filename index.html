@@ -1,205 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/navbar.css">
     <link rel="stylesheet" href="./CSS/footer.css">
     <link rel="stylesheet" href="./CSS/mainIndex.css">
     <link rel="stylesheet" href="./CSS/carousel.css">
-    <script src="./JS/scroll.js"></script>  
+    <script src="./JS/scroll.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap" rel="stylesheet">
 
     <title> David Cortés | SWE </title>
 </head>
+
 <body>
     <header>
-        <nav> 
+        <nav>
             <section class="logo_menu">
-                <a href="./index.html"><img src="./IMG/Logotipo marca personal/logo2.png" alt="Logo" width="55px" height="50px" id="logo1"></a>
+                <a href="./index.html"><img src="./IMG/Logotipo marca personal/logo2.png" alt="Logo" width="55px"
+                        height="50px" id="logo1"></a>
                 <figure id="menu-icon" onclick="toggleNavbar()">
                     <img src="./IMG/menu.png" alt="menu">
                 </figure>
-    
+
             </section>
 
-           <section id="first_nav">
-            <a href="./index.html"><img src="./IMG/Logotipo marca personal/logo2.png" alt="Logo" width="55px" height="50px" id="logo2"></a>
-    
-            <ul id="lista_navbar">
-                <li><a href="./index.html"><span>About me</span> <span><img src="./IMG/code-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
-                <li><a href="./testimonials.html"><span>Testimonials</span> <span><img src="./IMG/school-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
-                <li><a href="./technologies.html"><span>Technologies</span> <span><img src="./IMG/laptop-file-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
-                <li><a href="./projects.html"><span>Projects</span> <span><img src="./IMG/tarp-solid.svg" alt=""  alt="" width="30px" height="30px" class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
-            </ul>
-           </section> 
+            <section id="first_nav">
+                <a href="./index.html"><img src="./IMG/Logotipo marca personal/logo2.png" alt="Logo" width="55px"
+                        height="50px" id="logo2"></a>
+
+                <ul id="lista_navbar">
+                    <li><a href="./index.html"><span>About me</span> <span><img src="./IMG/code-solid.svg" alt="" alt=""
+                                    width="30px" height="30px" class="fas fa-address-card"
+                                    aria-hidden="true"></i></span> </a></li>
+                    <li><a href="./testimonials.html"><span>Testimonials</span> <span><img src="./IMG/school-solid.svg"
+                                    alt="" alt="" width="30px" height="30px" class="fas fa-address-card"
+                                    aria-hidden="true"></i></span> </a></li>
+                    <li><a href="./technologies.html"><span>Experience</span> <span><img
+                                    src="./IMG/laptop-file-solid.svg" alt="" alt="" width="30px" height="30px"
+                                    class="fas fa-address-card" aria-hidden="true"></i></span> </a></li>
+                    <li><a href="./projects.html"><span>Projects</span> <span><img src="./IMG/tarp-solid.svg" alt=""
+                                    alt="" width="30px" height="30px" class="fas fa-address-card"
+                                    aria-hidden="true"></i></span> </a></li>
+                </ul>
+            </section>
 
         </nav>
-    
+
         <nav id="navbar_menu">
             <li><a href="./index.html">About me</a></li>
             <li><a href="./testimonials.html">Testimonials</a></li>
-            <li><a href="./technologies.html">Technologies</a></li>
+            <li><a href="./technologies.html">Experience</a></li>
             <li><a href="./projects.html">Projects</a></li>
         </nav>
-        </header>
+    </header>
 
-<main>
-    <section class="box_container">
-        <article class="container">
-            <figure>
-                <img src="./IMG/photo.jpeg" alt="My Photo" width="300px" height="300px">
-            </figure>
-    
-            <article class="aboutme">
-                <h1 style="font-weight: bold;">David Cortés</h1>
-                <h2 style="color: #0b75ed; font-size: 25px;">Software Engineer</h2>
-                <p id="description" style="text-align: justify;">Hi, I'm David Cortés, a software engineer with a passion for web application 
-                    development and the world of computer science. I look for opportunities to apply
-                     my knowledge and creativity in innovative projects.</p>
-            </article>
-        </article>
-    </section>
+    <main>
+        <section class="box_container">
+            <article class="container">
+                <figure>
+                    <img src="./IMG/photo.jpeg" alt="My Photo" width="300px" height="300px">
+                </figure>
 
-    <section class="chat">
-        <figure id="chatIcon">
-            <img src="./IMG/chat.png" alt="Chat" width="50px" height="50px">
-        </figure>
-        <a href="./contact.html" style="text-decoration: none; font-weight: bold;">Let's Chat</a>
-    </section>
-
-    <div class="separator_line"></div>
-
-    <section id="terminal_icon" class="terminal-scroll">
-        <figure>
-            <button id="terminal_button" onclick="toggle_terminal()"><img src="./IMG/terminal-solid.svg" alt="terminal" width="50px" height="50px"></button>
-        </figure>
-        <p style="margin-left: 20px; font-weight: bold;">Try on me!</p>
-    </section>
-
-    <section id="terminal_box">
-        <article id="terminal">
-            <header class="terminal-header">
-
-                <svg width="17" height="17" style="margin-left: 5px; margin-right:10px ">
-                    <defs>
-                        <circle id="button_red" cx="8.5" cy="8.5" r="8.5"/>
-                    </defs>
-                    <use id="button_red" href="#button_red" onclick="toggle_terminal()">
-                </svg>
-
-                <svg width="17" height="17" style="margin-right:10px ">
-                    <defs>
-                        <circle id="button_yellow" cx="8.5" cy="8.5" r="8.5"/>
-                    </defs>
-                    <use id="button_yellow" href="#button_yellow" onclick="toggle_terminal()">
-                </svg>
-
-                <svg width="17" height="17" style="margin-right:10px ">
-                    <defs>
-                        <circle id="button_green" cx="8.5" cy="8.5" r="8.5"/>
-                    </defs>
-                    <use id="button_green" href="#button_green" onclick="maximizeWindow()">
-                </svg>
-
-            </header>
-
-            <div id="terminal_body">
-                <section style="display: flex; width: fit-content;">
-                    <p class="terminal-prompt">David@DESKTOP:~$ </p>
-                    <p id="type_text" style="color: #ffffff; font-weight: lighter; margin-top: 10px;">node my_portfolio.js</p>
-                </section>
-
-                <section id="terminal_fade">
-                    <p class="terminal-text" style="color: #ffffff; text-align: justify; font-family: 'Inconsolata';">I'm really into creating different animations for my apps, and it's so much fun adding references from my hobbies and the geek world</p>
-                    <p class="terminal-prompt">David@DESKTOP:~$ _</p>
-                </section>
-                
-            </div>
-        </article>
-    </section>
-
-    <section class="education_container">   
-
-        <section class="education">
-            <aside class="carrousel">
-                <div class="CarouselContainer">
-                    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="./IMG/1.png" class="d-block w-100" alt="Escuela Superior de Cómputo">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./IMG/2.png" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./IMG/3.png" class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                </div>
-            </aside>
-            <article class="certificate_container">
-                <h2 style="color: #ffffff;">Education</h2>
-                <ul>
-                    <li class="certificate" style="color: #ffffff;"> <a href="./DOC/JavaScript_TypeScript.pdf" target="_blank" style="color: #ffffff;"> JavaScript Certificate</a></li>
-                    <li class="certificate" style="color: #ffffff;"><a href="./DOC/Introduccion_desarrollo_web_git_github.pdf" target="_blank" style="color: #ffffff;">Introduction to Web Development + Git</a></li> 
-                    <li class="certificate" style="color: #ffffff;"><a href="./DOC/Certificado_CELEX.pdf" target="_blank" style="color: #ffffff;">B2 English Certificate</a></li>
-                </ul>
-                <button><a href="./DOC/Resume.pdf" target="_blank" style="color: #ffffff; text-decoration: none;">Curriculum Vitae</a></button>
+                <article class="aboutme">
+                    <h1 style="font-weight: bold;">David Cortés</h1>
+                    <h2 style="color: #0b75ed; font-size: 25px;">Software Engineer</h2>
+                    <p id="description" style="text-align: justify;">Hello!, I am David Cortés, a software engineer
+                        passionate about
+                        creating solutions and system development, specializing in web development, Informix 4GL
+                        application development, and RPA development with UiPath.</p>
+                </article>
             </article>
         </section>
 
-    </section>
+        <section class="chat">
+            <figure id="chatIcon">
+                <img src="./IMG/chat.png" alt="Chat" width="50px" height="50px">
+            </figure>
+            <a href="./contact.html" style="text-decoration: none; font-weight: bold;">Let's Chat</a>
+        </section>
 
-</main>
+        <div class="separator_line"></div>
 
-<footer class="footer_container">
-    <article class="group-1">
-         <div class="box">
-             <figure>       
-                     <img src="./IMG/logo.png" alt="Logo" width="200px" height="200px"> 
-             </figure>
-         </div>
-         <div class="box">
-             <h2>Attributions</h2>
-             <p style="text-align: justify; font-size: 13px;">I appreciate their excellent work and creativity in providing these beautiful icons that add style and clarity to my interface</p>
-             <a href="https://www.flaticon.es/iconos-gratis/html" title="html iconos">Html iconos creados por Shuvo.Das - Flaticon</a>
-             <br>
-             <a href="https://www.flaticon.es/iconos-gratis/ui" title="ui iconos">Ui iconos creados por Designspace Team - Flaticon</a>
-             <br>
-             <a href="https://www.flaticon.es/iconos-gratis/doble-galon" title="doble galón iconos">Doble galón iconos creados por Handicon - Flaticon</a>
-            </div>
-         <div class="box">
-             <h2>Contact</h2>
-             <div class="contact">
-                 <a href="mailto:dcortes2001@outlook.com"><img src="./IMG/envelope-solid.svg" alt="email" width="30px" height="30px" class="icon"></a>
-                 <a href="tel:+525548473144"><img src="./IMG/phone-solid.svg" alt="phone" width="30px" height="30px" class="icon"></a>
-                 <a href="www.linkedin.com/in/david-cortes-732879211" target="_blank"><img src="./IMG/linkedin.svg" alt="Linkedin" width="30px" height="30px" class="icon"></a>
+        <section id="terminal_icon" class="terminal-scroll">
+            <figure>
+                <button id="terminal_button" onclick="toggle_terminal()"><img src="./IMG/terminal-solid.svg"
+                        alt="terminal" width="50px" height="50px"></button>
+            </figure>
+            <p style="margin-left: 20px; font-weight: bold;">Click on me!</p>
+        </section>
+
+        <section id="terminal_box">
+            <article id="terminal">
+                <header class="terminal-header">
+
+                    <svg width="17" height="17" style="margin-left: 5px; margin-right:10px ">
+                        <defs>
+                            <circle id="button_red" cx="8.5" cy="8.5" r="8.5" />
+                        </defs>
+                        <use id="button_red" href="#button_red" onclick="toggle_terminal()">
+                    </svg>
+
+                    <svg width="17" height="17" style="margin-right:10px ">
+                        <defs>
+                            <circle id="button_yellow" cx="8.5" cy="8.5" r="8.5" />
+                        </defs>
+                        <use id="button_yellow" href="#button_yellow" onclick="toggle_terminal()">
+                    </svg>
+
+                    <svg width="17" height="17" style="margin-right:10px ">
+                        <defs>
+                            <circle id="button_green" cx="8.5" cy="8.5" r="8.5" />
+                        </defs>
+                        <use id="button_green" href="#button_green" onclick="maximizeWindow()">
+                    </svg>
+
+                </header>
+
+                <div id="terminal_body">
+                    <section style="display: flex; width: fit-content;">
+                        <p class="terminal-prompt">David@DESKTOP:~$ </p>
+                        <p id="type_text" style="color: #ffffff; font-weight: lighter; margin-top: 10px;">node
+                            my_portfolio.js</p>
+                    </section>
+
+                    <section id="terminal_fade">
+                        <p class="terminal-text"
+                            style="color: #ffffff; text-align: justify; font-family: 'Inconsolata';">I'm really into
+                            creating different animations for my apps, I strive to add originality and creativity to
+                            every project I work on.</p>
+                        <p class="terminal-prompt">David@DESKTOP:~$ _</p>
+                    </section>
+
                 </div>
-         </div>
-    </article>
+            </article>
+        </section>
 
-    <article class="group-2">
-         <small>&copy; 2023 <b>David Cortés</b> - All rights reserved</small>
-    </article>
-</footer>
-<script src="./JS/navbar.js"></script>
-<script src="./JS/terminal.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+        <section class="education_container">
+
+            <section class="education">
+                <aside class="carrousel">
+                    <div class="CarouselContainer">
+                        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./IMG/1.png" class="d-block w-100" alt="Escuela Superior de Cómputo">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./IMG/2.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./IMG/3.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </aside>
+                <article class="certificate_container">
+                    <h2 style="color: #ffffff;">Certificates</h2>
+                    <ul>
+                        <li class="certificate" style="color: #ffffff;"> <a href="https://credentials.uipath.com/23956bf3-414d-4a10-9c32-084003a32cdb#acc.RdavEeKn"
+                                target="_blank" style="color: #ffffff;">UiPath
+                                Academy Automation Explorer Training</a></li>
+                        <li class="certificate" style="color: #ffffff;"> <a href="https://credentials.uipath.com/9ec7f84a-e074-4a08-9771-650ef6350201"
+                                target="_blank" style="color: #ffffff;">UiPath Academy Automation Developer Associate
+                                Training</a></li>
+                        <li class="certificate" style="color: #ffffff;"> <a href="./DOC/JavaScript_TypeScript.pdf"
+                                target="_blank" style="color: #ffffff;"> JavaScript/TypeScript Certificate</a></li>
+                        <li class="certificate" style="color: #ffffff;"><a
+                                href="./DOC/Introduccion_desarrollo_web_git_github.pdf" target="_blank"
+                                style="color: #ffffff;">Introduction to Web Development + Git</a></li>
+                        <li class="certificate" style="color: #ffffff;"><a href="./DOC/Certificado_CELEX.pdf"
+                                target="_blank" style="color: #ffffff;">B2 English Certificate</a></li>
+                    </ul>
+                    <button><a href="./DOC/Resume_2025.pdf" target="_blank"
+                            style="color: #ffffff; text-decoration: none;">Curriculum Vitae</a></button>
+                </article>
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer class="footer_container">
+        <article class="group-1">
+            <div class="box">
+                <figure>
+                    <img src="./IMG/logo.png" alt="Logo" width="200px" height="200px">
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Attributions</h2>
+                <p style="text-align: justify; font-size: 13px;">I appreciate their excellent work and creativity in
+                    providing these beautiful icons that add style and clarity to my interface</p>
+                <a href="https://www.flaticon.es/iconos-gratis/html" title="html iconos">Html iconos creados por
+                    Shuvo.Das - Flaticon</a>
+                <br>
+                <a href="https://www.flaticon.es/iconos-gratis/ui" title="ui iconos">Ui iconos creados por Designspace
+                    Team - Flaticon</a>
+                <br>
+                <a href="https://www.flaticon.es/iconos-gratis/doble-galon" title="doble galón iconos">Doble galón
+                    iconos creados por Handicon - Flaticon</a>
+            </div>
+            <div class="box">
+                <h2>Contact</h2>
+                <div class="contact">
+                    <a href="mailto:dcortes2001@outlook.com"><img src="./IMG/envelope-solid.svg" alt="email"
+                            width="30px" height="30px" class="icon"></a>
+                    <a href="tel:+525548473144"><img src="./IMG/phone-solid.svg" alt="phone" width="30px" height="30px"
+                            class="icon"></a>
+                    <a href="www.linkedin.com/in/david-cortes-732879211" target="_blank"><img src="./IMG/linkedin.svg"
+                            alt="Linkedin" width="30px" height="30px" class="icon"></a>
+                </div>
+            </div>
+        </article>
+
+        <article class="group-2">
+            <small>&copy; 2023 <b>David Cortés</b> - All rights reserved</small>
+        </article>
+    </footer>
+    <script src="./JS/navbar.js"></script>
+    <script src="./JS/terminal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
     <script src="./JS/index.js"></script>
 </body>
+
 </html>
